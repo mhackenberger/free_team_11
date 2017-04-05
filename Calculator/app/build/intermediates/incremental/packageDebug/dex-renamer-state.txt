@@ -1,7 +1,0 @@
-#Wed Apr 05 12:26:13 CEST 2017
-base.0=C\:\\Users\\Magdalena\\Documents\\TuGraz\\Softwaretechnologie\\gitRepo\\free_team_11\\Calculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0897c87162182b4cfa07e6139c37f8da89309f40
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Magdalena\\Documents\\TuGraz\\Softwaretechnologie\\gitRepo\\free_team_11\\Calculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0a2512f7b16a801f67bee04fb215cfa2808b2938\\classes.dex
-base.1=C\:\\Users\\Magdalena\\Documents\\TuGraz\\Softwaretechnologie\\gitRepo\\free_team_11\\Calculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0a2512f7b16a801f67bee04fb215cfa2808b2938
-file.0=C\:\\Users\\Magdalena\\Documents\\TuGraz\\Softwaretechnologie\\gitRepo\\free_team_11\\Calculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0897c87162182b4cfa07e6139c37f8da89309f40\\classes.dex
