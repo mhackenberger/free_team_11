@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Magdalena\\Documents\\TuGraz\\Softwaretechnologie\\gitRepo\\free_team_11\\Calculator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "C:\\Users\\Magdalena\\.android\\build-cache\\f53c231a9b9f99f1552c873519ed85edf7cffb60\\output\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            }
+        ]
+    }
+]

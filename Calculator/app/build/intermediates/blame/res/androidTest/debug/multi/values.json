@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Magdalena\\Documents\\TuGraz\\Softwaretechnologie\\gitRepo\\free_team_11\\Calculator\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Magdalena\\.android\\build-cache\\22bbf84b7d7c3f371049122450b59d320ab006f0\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]
