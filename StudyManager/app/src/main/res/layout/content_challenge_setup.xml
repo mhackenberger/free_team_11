@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="at.vocabdevelopment.studymanager.ChallengeSetupActivity"
+    tools:showIn="@layout/activity_challenge_setup"
+    android:background="@drawable/aluminium">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="Edit"
+        android:background="@color/button_blue"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="260dp"
+        android:layout_height="37dp"
+        android:text="Challenge x"
+        android:background="@drawable/text_background"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toLeftOf="@+id/button4"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Card Deck Option"
+        android:background="@drawable/text_background"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:layout_marginLeft="29dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="29dp" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Difficulty"
+        android:background="@drawable/text_background"
+        android:layout_marginLeft="29dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="44dp"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        android:layout_marginStart="29dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active Deck"
+        android:background="@color/button_blue"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/button6"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.55"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="62dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Deck"
+        android:background="@color/button_blue"
+        android:layout_marginRight="72dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="74dp"
+        android:layout_marginTop="99dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy"
+        android:background="@color/button_blue"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/button8"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="197dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="88dp"
+        android:layout_height="51dp"
+        android:text="Medium"
+        android:background="@color/button_blue"
+        app:layout_constraintRight_toLeftOf="@+id/button9"
+        app:layout_constraintLeft_toRightOf="@+id/button7"
+        android:layout_marginTop="61dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Difficult"
+        android:background="@color/button_blue"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/button8"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="197dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="176dp"
+        android:layout_height="89dp"
+        android:text="Start Challenge"
+        android:background="@color/button_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

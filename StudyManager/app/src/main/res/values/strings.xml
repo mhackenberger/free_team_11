@@ -5,4 +5,11 @@
     <string name="title_activity_challenge_overview">ChallengeOverviewActivity</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
     <string name="title_activity_challenge_answer">ChallengeAnswerActivity</string>
+    <string name="title_activity_card_edit">CardEditActivity</string>
+    <string name="title_activity_card_add">CardAddActivity</string>
+    <string name="type_question">Type in your question!</string>
+    <string name="type_answer">Type in your answer!</string>
+    <string name="title_activity_challenge_result">ChallengeResultActivity</string>
+    <string name="title_activity_challenge_setup">ChallengeSetupActivity</string>
+    <string name="title_activity_challenge_edit_view">ChallengeEditView</string>
 </resources>

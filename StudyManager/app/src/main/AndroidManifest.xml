@@ -27,10 +27,31 @@
         <activity
             android:name=".ChallengeOverviewActivity"
             android:label="@string/title_activity_challenge_overview"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
         <activity
             android:name=".ChallengeAnswerActivity"
             android:label="@string/title_activity_challenge_answer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CardEditActivity"
+            android:label="@string/title_activity_card_edit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CardAddActivity"
+            android:label="@string/title_activity_card_add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChallengeResultActivity"
+            android:label="@string/title_activity_challenge_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChallengeSetupActivity"
+            android:label="@string/title_activity_challenge_setup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChallengeEditView"
+            android:label="@string/title_activity_challenge_edit_view"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
