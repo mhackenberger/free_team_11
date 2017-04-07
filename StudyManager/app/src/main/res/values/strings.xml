@@ -12,4 +12,5 @@
     <string name="title_activity_challenge_result">ChallengeResultActivity</string>
     <string name="title_activity_challenge_setup">ChallengeSetupActivity</string>
     <string name="title_activity_challenge_edit_view">ChallengeEditView</string>
+    <string name="title_activity_add_challenge">AddChallengeActivity</string>
 </resources>
