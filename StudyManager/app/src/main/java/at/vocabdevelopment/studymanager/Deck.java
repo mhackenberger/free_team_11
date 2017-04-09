@@ -21,4 +21,10 @@ public class Deck extends SugarRecord {
         String id = Long.toString(getId());
         return Flashcard.find(Flashcard.class, "deck = ?", id);
     }
+    String getName(){
+        return this.challenge_name;
+    }
+    void setName(String name){
+        challenge_name = name;
+    }
 }

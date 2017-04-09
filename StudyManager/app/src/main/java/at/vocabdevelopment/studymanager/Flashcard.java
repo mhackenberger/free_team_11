@@ -22,4 +22,43 @@ public class Flashcard extends SugarRecord {
         this.active = ac;
         this.deck = de;
     }
+
+    Deck getDeck(){
+        return this.deck;
+    }
+
+    String getQuestion(){
+        return this.question;
+    }
+    void setQuestion(String question){
+        this.question = question;
+    }
+
+    String getAnswer(){
+        return this.answer;
+    }
+
+    void setAnswer(String answer){
+        this.answer = answer;
+    }
+
+    int getLevel(){
+        return this.level;
+    }
+
+    void setLevel(int level){
+        this.level = level;
+    }
+
+    boolean getActive(){
+        return this.active;
+    }
+
+    void setActive(boolean active){
+        this.active = active;
+    }
+
+
+
+
 }

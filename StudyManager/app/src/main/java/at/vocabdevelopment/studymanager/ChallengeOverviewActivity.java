@@ -1,18 +1,21 @@
 package at.vocabdevelopment.studymanager;
 
+import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.app.AlertDialog;
-import android.content.Context;
+import android.widget.LinearLayout;
+
 import java.util.List;
 
 public class ChallengeOverviewActivity extends AppCompatActivity  implements View.OnClickListener {
 
     final Context context = this;
     Button new_button;
+    LinearLayout linearLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +34,17 @@ public class ChallengeOverviewActivity extends AppCompatActivity  implements Vie
             AlertDialog dialog = builder.create();
             dialog.show();
         }
-
+        else{
+            linearLayout = (LinearLayout) findViewById(R.id.challege_overview_linear_layout);
+            for(int i = 0; i < decks.size(); i++){
+                Deck current_deck = decks.get(i);
+                Button button = new Button(this);
+                button.setText(current_deck.getName());
+                button.setId((int) (long) current_deck.getId());
+                button.setOnClickListener(this);
+                linearLayout.addView(button);
+            }
+        }
     }
 
     @Override
@@ -40,6 +53,10 @@ public class ChallengeOverviewActivity extends AppCompatActivity  implements Vie
             Intent AddChallengeActivity = new Intent(ChallengeOverviewActivity.this, AddChallengeActivity.class);
             startActivity(AddChallengeActivity);
         }
+        String challenge_id = Integer.toString(v.getId());
+        Intent ChallengeSetupActivity = new Intent(ChallengeOverviewActivity.this, ChallengeSetupActivity.class);
+        ChallengeSetupActivity.putExtra("CHALLENGE_ID", challenge_id);
+        startActivity(ChallengeSetupActivity);
     }
 
 }

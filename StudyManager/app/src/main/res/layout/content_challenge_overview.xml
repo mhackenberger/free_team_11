@@ -15,7 +15,7 @@
         android:layout_height="45dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Search Challenge or Card (?)"
+        android:hint="Search Challenge or Card (?)"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="16dp"
         app:layout_constraintRight_toRightOf="parent"
@@ -33,17 +33,21 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
 
-    <ListView
-        android:id="@+id/challenge_overview_list"
+    <ScrollView
         android:layout_width="338dp"
-        android:layout_height="360dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/new_button"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias="0.428"
+        android:layout_height="361dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:background="@drawable/text_background"/>
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/new_button">
+
+        <LinearLayout
+            android:id="@+id/challege_overview_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
