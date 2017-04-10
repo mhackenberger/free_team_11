@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ChallengeOverviewActivity extends AppCompatActivity  implements View.OnClickListener {
@@ -26,7 +27,7 @@ public class ChallengeOverviewActivity extends AppCompatActivity  implements Vie
         new_button.setOnClickListener(this);
 
 
-        List<Deck> decks = Deck.listAll(Deck.class);
+        List<Deck> decks = Deck.listAll(Deck.class); // FIXME throws exception, when performing click on "Challenge Overview" on StartView; new ArrayList<Deck>();
         //check if there are any challenges/decks yet
         if(decks.isEmpty()){
             AlertDialog.Builder builder = new AlertDialog.Builder(context);

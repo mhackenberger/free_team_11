@@ -21,10 +21,10 @@ import static org.junit.Assert.assertEquals;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 @RunWith(AndroidJUnit4.class)
-public class StudyManagerInstrumentedTest {
+public class ChallengeQuestionViewInstrumentedTest {
     @Rule
-    public ActivityTestRule<StartActivity> mActivityRule = new ActivityTestRule<>(
-            StartActivity.class);
+    public ActivityTestRule<ChallengeQuestionActivity> mActivityRule = new ActivityTestRule<>(
+            ChallengeQuestionActivity.class);
 
     @Test
     public void useAppContext() throws Exception {
@@ -36,8 +36,8 @@ public class StudyManagerInstrumentedTest {
 
     @Test
     public void testButtons() {
-        onView(withText("Continue Challenge")).perform(click());
+        onView(withText("Show Answer")).perform(click());
         Espresso.pressBack();
-//        onView(withText("Challenge Overview")).perform(click());
+        onView(withText("Quit Challenge")).perform(click());
     }
 }
