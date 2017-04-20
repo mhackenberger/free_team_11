@@ -3,6 +3,4 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="button_blue">#3399ff</color>
-    <color name="input_box_color">#aa87CeFa</color>
 </resources>
