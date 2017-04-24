@@ -9,28 +9,6 @@
     tools:showIn="@layout/activity_challenge_question"
     android:background="@drawable/background">
 
-    <ScrollView
-        android:layout_width="324dp"
-        android:layout_height="346dp"
-        app:layout_constraintBottom_toTopOf="@+id/show_answer_button"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginBottom="32dp"
-        android:background="@drawable/text_background"
-        android:padding="5dp">
-
-        <TextView
-            android:id="@+id/editText3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="12"
-            android:overScrollMode="always"
-            android:scrollbarStyle="insideInset"
-            android:scrollbars="vertical"
-            android:text="@string/lorem_ipsum" />
-
-    </ScrollView>
-
     <Button
         android:id="@+id/show_answer_button"
         android:layout_width="324dp"
@@ -56,6 +34,31 @@
         android:layout_marginBottom="26dp"
         tools:layout_editor_absoluteX="36dp"
         android:background="@drawable/blue_button"/>
+
+    <ScrollView
+        android:layout_width="324dp"
+        android:layout_height="346dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/text_background"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/show_answer_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="12"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:text="@string/lorem_ipsum"
+            android:visibility="visible" />
+
+    </ScrollView>
 
 
 </android.support.constraint.ConstraintLayout>
