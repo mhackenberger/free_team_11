@@ -27,8 +27,6 @@ public class AddChallengeActivity extends AppCompatActivity implements View.OnCl
 
         save_button = (Button) findViewById(R.id.button);
         save_button.setOnClickListener(this);
-
-        challenge_name = (EditText) findViewById(R.id.challenge_name);
     }
 
 
@@ -36,7 +34,7 @@ public class AddChallengeActivity extends AppCompatActivity implements View.OnCl
     public void onClick(View v) {
         if (v.getId() == R.id.button){
             //check if user entered name. show dialog if he didn't
-            if(challenge_name.getText().toString().equals("")) {
+            if(challenge_name == null || challenge_name.getText().toString().equals("")) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(context);
                 builder.setMessage("Please enter a challenge name!").setTitle("Name empty");
                 AlertDialog dialog = builder.create();

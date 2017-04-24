@@ -49,14 +49,18 @@ public class ChallengeOverviewActivity extends AppCompatActivity  implements Vie
 
     @Override
     public void onClick(View v) {
+        //if the presses the button to add a new challenge, navigate to AddChallengeActivity
         if (v.getId() == R.id.new_button){
             Intent AddChallengeActivity = new Intent(ChallengeOverviewActivity.this, AddChallengeActivity.class);
             startActivity(AddChallengeActivity);
         }
-        String challenge_id = Integer.toString(v.getId());
-        Intent ChallengeSetupActivity = new Intent(ChallengeOverviewActivity.this, ChallengeSetupActivity.class);
-        ChallengeSetupActivity.putExtra("CHALLENGE_ID", challenge_id);
-        startActivity(ChallengeSetupActivity);
+        else{
+            //if the user clicks on a existing challenge, navigate to ChallengeSetupActivity
+            String challenge_id = Integer.toString(v.getId());
+            Intent ChallengeSetupActivity = new Intent(ChallengeOverviewActivity.this, ChallengeSetupActivity.class);
+            ChallengeSetupActivity.putExtra("CHALLENGE_ID", challenge_id);
+            startActivity(ChallengeSetupActivity);
+        }
     }
 
 }
