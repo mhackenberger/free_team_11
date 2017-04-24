@@ -27,6 +27,8 @@ public class AddChallengeActivity extends AppCompatActivity implements View.OnCl
 
         save_button = (Button) findViewById(R.id.button);
         save_button.setOnClickListener(this);
+
+        challenge_name = (EditText) findViewById(R.id.challenge_name);
     }
 
 
